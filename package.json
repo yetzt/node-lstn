@@ -1,0 +1,23 @@
+{
+  "name": "lstn",
+  "version": "0.0.1",
+  "description": "server.listen() made easy",
+  "main": "lstn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yetzt/node-lstn.git"
+  },
+  "keywords": [
+    "listen",
+    "server"
+  ],
+  "author": "yetzt <node@yetzt.me>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/yetzt/node-lstn/issues"
+  },
+  "homepage": "https://github.com/yetzt/node-lstn#readme"
+}
