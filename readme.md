@@ -1,6 +1,6 @@
 # lstn
 
-`lstn` makes ist more straightforward to listen on unix sockets by deleting old sockets when presend and setting the mode of the created socket file.
+`lstn` makes it more straightforward to listen on unix sockets by deleting old sockets when present and setting the mode of the created socket file.
 
 ## Usage
 
