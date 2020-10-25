@@ -20,7 +20,7 @@ module.exports = function(){
 			var socketpath = path.resolve(args[0]);
 			
 			// check for mode override
-			var mode = (args.length > 1 && typeof args[1] === "number" && args[1] > 0 && args[1] <= 511) ? args.splice(1,1) : 0x1c0; // 0o700
+			var mode = (args.length > 1 && typeof args[1] === "number" && args[1] > 0 && args[1] <= 511) ? args.splice(1,1).pop() : 0x1c0; // 0o700
 			
 			// check for callback; invent callback
 			var fn = (typeof args[args.length-1] === "function") ? args.pop() : function(err){ if (err) throw err; };
